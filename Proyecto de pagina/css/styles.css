@@ -1,0 +1,66 @@
+*{margin: 0; 
+padding: 0; box-sizing: border-box;
+}
+#banner{
+    display: flex;
+    background-image: url(../img/Fondo\ blanco\ y\ negro\ Valorant.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+}
+.title {
+    color: rgb(255, 76, 76);
+    font-family: Oswald;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 23%;
+    margin-left: 35%;
+    text-shadow: 0 0 8px black;
+    -webkit-text-stroke: 0.8px black;
+}
+#barra_busqueda {
+    border: 3px groove rgb(0, 0, 0);
+    box-shadow:  0px 0px 7px 1.7px rgb(255, 0, 0);
+    display: flex;
+    height: 30px;
+    width: 200px;
+    padding: 6px;
+    font-size: 15px;
+    justify-content: end;
+}
+#jett_img {
+    position: relative;
+    left: 0;
+    object-position:top left; 
+    object-fit: cover;
+    width: 233px;
+    height: 252px;
+    border-top:2px solid rgb(0, 0, 0);
+    border-left:2px solid rgb(0, 0, 0);
+}
+
+#jett {
+    display: flex;
+    align-items: left;
+    background-color: rgb(26, 26, 26);
+}
+#jett .reproductor {
+    display: block;
+    margin-left: 20px;
+    width: 426,66666666666666666666666666667px;
+    height: 240px;
+    margin-top: 5px;
+}
+#jett .Ulti {
+    display: block;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgb(26, 26, 26);
+    border: none;
+}
